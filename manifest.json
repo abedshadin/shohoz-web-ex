@@ -1,0 +1,21 @@
+
+
+{
+    "manifest_version": 2,
+    "name": "Shohoz ARO Shohoz",
+    "description": "Buy Ticket Easily",
+    "homepage_url": "http://www.abedbd.xyz",
+    "version": "1.0",
+    "icons":{
+        "128":"icon.png"},
+    "browser_action": {
+        "default_title": "Shohoz ARO Shohoz",
+        "default_popup": "index.html",
+  "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
