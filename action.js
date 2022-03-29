@@ -3,7 +3,11 @@ document.getElementById('fillForm').addEventListener('click', function(){
       file: "injector.js"
     });
   });
-
+  document.getElementById('fillFormConti').addEventListener('click', function(){
+    chrome.tabs.executeScript({
+      file: "injector2.js"
+    });
+  });
 
   document.getElementById('fillFormPer').addEventListener('click', function(){
     chrome.tabs.executeScript({
