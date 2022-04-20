@@ -8,6 +8,21 @@ document.getElementById('fillForm').addEventListener('click', function(){
       file: "injector2.js"
     });
   });
+  document.getElementById('fillFormDew').addEventListener('click', function(){
+    chrome.tabs.executeScript({
+      file: "injector3.js"
+    });
+  });
+  document.getElementById('viewSeats').addEventListener('click', function(){
+    chrome.tabs.executeScript({
+      file: "viewSeats.js"
+    });
+  });
+  document.getElementById('selectSeats').addEventListener('click', function(){
+    chrome.tabs.executeScript({
+      file: "selectSeats.js"
+    });
+  });
 
   document.getElementById('fillFormPer').addEventListener('click', function(){
     chrome.tabs.executeScript({
