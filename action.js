@@ -1,3 +1,8 @@
+document.getElementById('viewseat').addEventListener('click', function(){
+  chrome.tabs.executeScript({
+    file: "injector4.js"
+  });
+});
 document.getElementById('fillForm').addEventListener('click', function(){
     chrome.tabs.executeScript({
       file: "injector.js"
@@ -8,16 +13,12 @@ document.getElementById('fillForm').addEventListener('click', function(){
       file: "injector2.js"
     });
   });
-  document.getElementById('fillFormDew').addEventListener('click', function(){
-    chrome.tabs.executeScript({
-      file: "injector3.js"
-    });
-  });
-  document.getElementById('viewSeats').addEventListener('click', function(){
-    chrome.tabs.executeScript({
-      file: "viewSeats.js"
-    });
-  });
+  // document.getElementById('fillFormDew').addEventListener('click', function(){
+  //   chrome.tabs.executeScript({
+  //     file: "injector3.js"
+  //   });
+  // });
+
   document.getElementById('selectSeats').addEventListener('click', function(){
     chrome.tabs.executeScript({
       file: "selectSeats.js"
