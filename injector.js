@@ -4,7 +4,7 @@ selectAll();
 function selectAll(){
 
   const link =document.getElementsByClassName('seatsLayout');
-  link[12].click();
+  link[3].click();
   
   
   const myTimeout = setTimeout(select, 1000);

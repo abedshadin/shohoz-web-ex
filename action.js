@@ -3,6 +3,11 @@ document.getElementById('viewseat').addEventListener('click', function(){
     file: "injector4.js"
   });
 });
+document.getElementById('cabinviewseat').addEventListener('click', function(){
+  chrome.tabs.executeScript({
+    file: "injector5.js"
+  });
+});
 document.getElementById('fillForm').addEventListener('click', function(){
     chrome.tabs.executeScript({
       file: "injector.js"

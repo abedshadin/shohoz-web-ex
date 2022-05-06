@@ -3,6 +3,6 @@ selectAllData();
 function selectAllData(){
 
   const link5 =document.getElementsByClassName('seatsLayout');
-  link5[12].click();
+  link5[3].click();
 console.log('data');
 }
